@@ -1,12 +1,11 @@
-#About jd-sdk
+#   About jd-sdk
 京东开放平台golang版本sdk
 
-###京东api地址
+### 京东api地址
 <https://open.jd.com/#/doc/api?apiCateId=106&apiId=6146&apiName=jingdong.getUserEntryWechatGroupTrack>
 
 
-##demo
-`
+##  demo
 
     var (
         AppKey      string = "Your AppKey"
@@ -35,7 +34,7 @@
 		fmt.Println(err)
 	}
 	fmt.Println(execute)
-`
-###ps
 
--目前仅只支持了几个api，其他的需要自己手动接入，仿照写即可。
+### ps
+
+-   目前仅只支持了几个api，其他的需要自己手动接入，仿照写即可。
